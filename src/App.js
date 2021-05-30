@@ -100,8 +100,6 @@ export default class App extends React.Component {
     const { selectedOption } = this.state;
     return (
       <div>
-        
-                
         <nav>
           <div class="nav-wrapper black">
           <a href="#" class="brand-logo center">Bank Search</a>
@@ -136,7 +134,7 @@ export default class App extends React.Component {
                     color="blue"
                     height={100}
                     width={100}
-                    timeout={20000} //3 secs
+                    timeout={20000} 
                   /></center>
                     :
             <tr>
@@ -148,8 +146,7 @@ export default class App extends React.Component {
             </tr>}
           </thead>
           <tbody>
-                 {this.bankList() }
-            
+                 {this.bankList() }            
           </tbody>
         </table>
         </div>
